@@ -67,7 +67,37 @@
 				         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
 				         <versionTagPrefix>kk-</versionTagPrefix>
 				    </flowInitContext>
+				    <allowSnapshots>false</allowSnapshots>
+				    <allowUntracked>false</allowUntracked>
+				    <!-- <defaultOriginUrl></defaultOriginUrl> -->
+				    <enableFeatureVersions>false</enableFeatureVersions>
+				    <enableSshAgent>false</enableSshAgent>
+				    <!-- <featureName></featureName> -->
+				    <pushFeatures>false</pushFeatures>
+				    <pushHotfixes>false</pushHotfixes>
+				    <pushReleases>false</pushReleases>
+				    <scmCommentPrefix>""</scmCommentPrefix>
+				    <!-- <startCommit></startCommit> -->
 	            </configuration>
+	            <executions>
+	            	<execution>
+	            		<id>feature-start</id>
+	            		<goals>
+	            			<goal>feature-start</goal>
+	            		</goals>
+	            		<configuration>
+	            			<allowSnapshots>true</allowSnapshots>
+						    <allowUntracked>false</allowUntracked>
+						    <enableFeatureVersions>false</enableFeatureVersions>
+						    <enableSshAgent>false</enableSshAgent>
+						    <!-- <featureName></featureName> -->
+						    <pushFeatures>true</pushFeatures>
+						    <pushHotfixes>false</pushHotfixes>
+						    <pushReleases>false</pushReleases>
+						    <scmCommentPrefix>""</scmCommentPrefix>
+	            		</configuration>
+	            	</execution>
+	            </executions>
 	        </plugin>
             <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
