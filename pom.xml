@@ -88,7 +88,7 @@
 	            		<configuration>
 	            			<allowSnapshots>true</allowSnapshots>
 						    <allowUntracked>false</allowUntracked>
-						    <enableFeatureVersions>false</enableFeatureVersions>
+						    <enableFeatureVersions>true</enableFeatureVersions>
 						    <enableSshAgent>false</enableSshAgent>
 						    <pushFeatures>true</pushFeatures>
 						    <scmCommentPrefix>fs</scmCommentPrefix>
@@ -102,7 +102,7 @@
 	            		<configuration>
 	            			<allowSnapshots>true</allowSnapshots>
 						    <allowUntracked>false</allowUntracked>
-						    <enableFeatureVersions>true</enableFeatureVersions>
+						    <!-- <enableFeatureVersions>true</enableFeatureVersions> -->
 						    <enableSshAgent>false</enableSshAgent>
 						    <pushFeatures>true</pushFeatures>
 						    <scmCommentPrefix>ff</scmCommentPrefix>
