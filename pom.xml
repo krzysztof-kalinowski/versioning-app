@@ -67,16 +67,16 @@
 				         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
 				         <versionTagPrefix>kk-</versionTagPrefix>
 				    </flowInitContext>
-				    <allowSnapshots>false</allowSnapshots>
-				    <allowUntracked>false</allowUntracked>
+				    <!-- <allowSnapshots>false</allowSnapshots>
+				    <allowUntracked>false</allowUntracked> -->
 				    <!-- <defaultOriginUrl></defaultOriginUrl> -->
-				    <enableFeatureVersions>false</enableFeatureVersions>
-				    <enableSshAgent>false</enableSshAgent>
+				    <!-- <enableFeatureVersions>false</enableFeatureVersions>
+				    <enableSshAgent>false</enableSshAgent> -->
 				    <!-- <featureName></featureName> -->
-				    <pushFeatures>false</pushFeatures>
+				    <!-- <pushFeatures>false</pushFeatures>
 				    <pushHotfixes>false</pushHotfixes>
 				    <pushReleases>false</pushReleases>
-				    <scmCommentPrefix>default</scmCommentPrefix>
+				    <scmCommentPrefix>default</scmCommentPrefix> -->
 				    <!-- <startCommit></startCommit> -->
 	            </configuration>
 	            <executions>
