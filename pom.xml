@@ -90,10 +90,7 @@
 						    <allowUntracked>false</allowUntracked>
 						    <enableFeatureVersions>false</enableFeatureVersions>
 						    <enableSshAgent>false</enableSshAgent>
-						    <!-- <featureName></featureName> -->
 						    <pushFeatures>true</pushFeatures>
-						    <pushHotfixes>false</pushHotfixes>
-						    <pushReleases>false</pushReleases>
 						    <scmCommentPrefix>""</scmCommentPrefix>
 	            		</configuration>
 	            	</execution>
