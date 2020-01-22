@@ -76,7 +76,7 @@
 				    <pushFeatures>false</pushFeatures>
 				    <pushHotfixes>false</pushHotfixes>
 				    <pushReleases>false</pushReleases>
-				    <scmCommentPrefix>""</scmCommentPrefix>
+				    <scmCommentPrefix>"default"</scmCommentPrefix>
 				    <!-- <startCommit></startCommit> -->
 	            </configuration>
 	            <executions>
@@ -91,7 +91,21 @@
 						    <enableFeatureVersions>false</enableFeatureVersions>
 						    <enableSshAgent>false</enableSshAgent>
 						    <pushFeatures>true</pushFeatures>
-						    <scmCommentPrefix>""</scmCommentPrefix>
+						    <scmCommentPrefix>"fs "</scmCommentPrefix>
+	            		</configuration>
+	            	</execution>
+	            	<execution>
+	            		<id>feature-finish</id>
+	            		<goals>
+	            			<goal>feature-finish</goal>
+	            		</goals>
+	            		<configuration>
+	            			<allowSnapshots>true</allowSnapshots>
+						    <allowUntracked>false</allowUntracked>
+						    <enableFeatureVersions>false</enableFeatureVersions>
+						    <enableSshAgent>false</enableSshAgent>
+						    <pushFeatures>true</pushFeatures>
+						    <scmCommentPrefix>"ff"</scmCommentPrefix>
 	            		</configuration>
 	            	</execution>
 	            </executions>
