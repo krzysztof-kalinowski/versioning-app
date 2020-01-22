@@ -54,6 +54,22 @@
                 </executions>
             </plugin>
             <plugin>
+	            <groupId>external.atlassian.jgitflow</groupId>
+	            <artifactId>jgitflow-maven-plugin</artifactId>
+	            <version>1.0-m5.1</version>
+	            <configuration>
+	                <!-- see goals wiki page for configuration options -->
+	                <flowInitContext>
+				         <masterBranchName>master</masterBranchName>
+				         <developBranchName>develop</developBranchName>
+				         <featureBranchPrefix>feature-</featureBranchPrefix>
+				         <releaseBranchPrefix>release-</releaseBranchPrefix>
+				         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
+				         <versionTagPrefix>kk-</versionTagPrefix>
+				    </flowInitContext>
+	            </configuration>
+	        </plugin>
+            <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>3.0.0-M1</version>
@@ -62,9 +78,10 @@
                     <preparationGoals>package</preparationGoals>
                     <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
                     <tagNameFormat>@{project.version}</tagNameFormat>
-                    <!-- <remoteTagging>false</remoteTagging> --> <!-- default:true Do you want to create remote tag before building and pushing? -->
+                    <remoteTagging>false</remoteTagging> default:true Do you want to create remote tag before building and pushing?
                 </configuration>
-            </plugin>
+            </plugin> -->
+            
         </plugins>
     </build>
 </project>
