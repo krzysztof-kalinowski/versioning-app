@@ -5,7 +5,7 @@
 
   <groupId>kkalinowski.versioning.demo</groupId>
   <artifactId>versioning-app</artifactId>
-  <version>0.2.2-SNAPSHOT</version>
+  <version>0.2.2</version>
 
   <name>versioning-app</name>
 
@@ -54,6 +54,67 @@
                 </executions>
             </plugin>
             <plugin>
+	            <groupId>external.atlassian.jgitflow</groupId>
+	            <artifactId>jgitflow-maven-plugin</artifactId>
+	            <version>1.0-m5.1</version>
+	            <configuration>
+	                <!-- see goals wiki page for configuration options -->
+	                <flowInitContext>
+				         <masterBranchName>master</masterBranchName>
+				         <developBranchName>develop</developBranchName>
+				         <featureBranchPrefix>feature-</featureBranchPrefix>
+				         <releaseBranchPrefix>release-</releaseBranchPrefix>
+				         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
+				         <versionTagPrefix>kk-</versionTagPrefix>
+				    </flowInitContext>
+				    <enableSshAgent>true</enableSshAgent>
+				    <autoVersionSubmodules>true</autoVersionSubmodules>
+				    <pushFeatures>true</pushFeatures>
+				    <pushReleases>true</pushReleases>
+				    <pushHotfixes>true</pushHotfixes>
+				    <noDeploy>true</noDeploy>
+				    <!-- <allowSnapshots>false</allowSnapshots>-->
+				    <!-- <allowSnapshots>true</allowSnapshots> -->
+				    <!-- <allowUntracked>false</allowUntracked> -->
+				    <!-- <defaultOriginUrl></defaultOriginUrl> -->
+				    <!-- <enableFeatureVersions>true</enableFeatureVersions> -->
+				    <!-- <featureName></featureName> -->
+				    <!-- <pushFeatures>false</pushFeatures>
+				    <pushHotfixes>false</pushHotfixes>
+				    <pushReleases>false</pushReleases>
+				    <scmCommentPrefix>default</scmCommentPrefix> -->
+				    <!-- <startCommit></startCommit> -->
+	            </configuration>
+	           <!--  <executions>
+	            	<execution>
+	            		<id>feature-start</id>
+	            		<goals>
+	            			<goal>feature-start</goal>
+	            		</goals>
+	            		<configuration>
+	            			<allowSnapshots>true</allowSnapshots>
+						    <allowUntracked>false</allowUntracked>
+						    <enableSshAgent>false</enableSshAgent>
+						    <pushFeatures>true</pushFeatures>
+						    <scmCommentPrefix>fs</scmCommentPrefix>
+	            		</configuration>
+	            	</execution>
+	            	<execution>
+	            		<id>feature-finish</id>
+	            		<goals>
+	            			<goal>feature-finish</goal>
+	            		</goals>
+	            		<configuration>
+	            			<allowSnapshots>true</allowSnapshots>
+						    <allowUntracked>false</allowUntracked>
+						    <enableSshAgent>false</enableSshAgent>
+						    <pushFeatures>true</pushFeatures>
+						    <scmCommentPrefix>ff</scmCommentPrefix>
+	            		</configuration>
+	            	</execution>
+	            </executions> -->
+	        </plugin>
+            <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>3.0.0-M1</version>
@@ -62,9 +123,10 @@
                     <preparationGoals>package</preparationGoals>
                     <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
                     <tagNameFormat>@{project.version}</tagNameFormat>
-                    <!-- <remoteTagging>false</remoteTagging> --> <!-- default:true Do you want to create remote tag before building and pushing? -->
+                    <remoteTagging>false</remoteTagging> default:true Do you want to create remote tag before building and pushing?
                 </configuration>
-            </plugin>
+            </plugin> -->
+            
         </plugins>
     </build>
 </project>
