@@ -67,11 +67,12 @@
 				         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
 				         <versionTagPrefix>kk-</versionTagPrefix>
 				    </flowInitContext>
-				    <!-- <allowSnapshots>false</allowSnapshots>
-				    <allowUntracked>false</allowUntracked> -->
+				    <!-- <allowSnapshots>false</allowSnapshots>-->
+				    <allowSnapshots>true</allowSnapshots>
+				    <!-- <allowUntracked>false</allowUntracked> -->
 				    <!-- <defaultOriginUrl></defaultOriginUrl> -->
 				    <enableFeatureVersions>true</enableFeatureVersions>
-				    <!-- <enableSshAgent>false</enableSshAgent> -->
+				    <enableSshAgent>true</enableSshAgent>
 				    <!-- <featureName></featureName> -->
 				    <!-- <pushFeatures>false</pushFeatures>
 				    <pushHotfixes>false</pushHotfixes>
@@ -79,7 +80,7 @@
 				    <scmCommentPrefix>default</scmCommentPrefix> -->
 				    <!-- <startCommit></startCommit> -->
 	            </configuration>
-	            <executions>
+	           <!--  <executions>
 	            	<execution>
 	            		<id>feature-start</id>
 	            		<goals>
@@ -106,7 +107,7 @@
 						    <scmCommentPrefix>ff</scmCommentPrefix>
 	            		</configuration>
 	            	</execution>
-	            </executions>
+	            </executions> -->
 	        </plugin>
             <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
