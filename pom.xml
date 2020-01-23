@@ -19,12 +19,12 @@
 	  <archetype.encoding>${encoding}</archetype.encoding>
   </properties>
   
-  <scm>
+  <!-- <scm>
       <connection>scm:git:git@github.com:krzysztof-kalinowski/versioning-app.git</connection>
       <developerConnection>scm:git:git@github.com:krzysztof-kalinowski/versioning-app.git</developerConnection>
       <url>https://github.com/krzysztof-kalinowski/versioning-app</url>
       <tag>@{project.version}</tag>
-  </scm>
+  </scm> -->
 
 
   <build>
@@ -59,6 +59,7 @@
 	            <version>1.0-m5.1</version>
 	            <configuration>
 	            	<enableSshAgent>true</enableSshAgent>
+	            	<privateKey>${user.home}/.ssh/id_dsa</privateKey>
 				    <autoVersionSubmodules>true</autoVersionSubmodules>
 				    <pushFeatures>true</pushFeatures>
 				    <pushReleases>true</pushReleases>
