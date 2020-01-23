@@ -58,6 +58,12 @@
 	            <artifactId>jgitflow-maven-plugin</artifactId>
 	            <version>1.0-m5.1</version>
 	            <configuration>
+	            	<enableSshAgent>true</enableSshAgent>
+				    <autoVersionSubmodules>true</autoVersionSubmodules>
+				    <pushFeatures>true</pushFeatures>
+				    <pushReleases>true</pushReleases>
+				    <pushHotfixes>true</pushHotfixes>
+				    <noDeploy>true</noDeploy>
 	                <flowInitContext>
 				         <masterBranchName>master</masterBranchName>
 				         <developBranchName>develop</developBranchName>
@@ -66,14 +72,6 @@
 				         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
 				         <versionTagPrefix>kk-</versionTagPrefix>
 				    </flowInitContext>
-				    <username>krzysztof-kalinowski</username>
-        			<password>${git.password}</password>
-				    <enableSshAgent>true</enableSshAgent>
-				    <autoVersionSubmodules>true</autoVersionSubmodules>
-				    <pushFeatures>true</pushFeatures>
-				    <pushReleases>true</pushReleases>
-				    <pushHotfixes>true</pushHotfixes>
-				    <noDeploy>true</noDeploy>
 	            </configuration>
 	        </plugin>
             <!-- <plugin>
