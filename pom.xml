@@ -59,7 +59,7 @@
 	            <version>1.0-m5.1</version>
 	            <configuration>
 	            	<enableSshAgent>true</enableSshAgent>
-	            	<privateKey>${user.home}/.ssh/id_dsa</privateKey>
+	            	<privateKey>${user.home}/.ssh/kk_github</privateKey>
 				    <autoVersionSubmodules>true</autoVersionSubmodules>
 				    <pushFeatures>true</pushFeatures>
 				    <pushReleases>true</pushReleases>
