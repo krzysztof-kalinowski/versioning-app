@@ -67,12 +67,17 @@
 				         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
 				         <versionTagPrefix>kk-</versionTagPrefix>
 				    </flowInitContext>
+				    <enableSshAgent>true</enableSshAgent>
+				    <autoVersionSubmodules>true</autoVersionSubmodules>
+				    <pushFeatures>true</pushFeatures>
+				    <pushReleases>true</pushReleases>
+				    <pushHotfixes>true</pushHotfixes>
+				    <noDeploy>true</noDeploy>
 				    <!-- <allowSnapshots>false</allowSnapshots>-->
-				    <allowSnapshots>true</allowSnapshots>
+				    <!-- <allowSnapshots>true</allowSnapshots> -->
 				    <!-- <allowUntracked>false</allowUntracked> -->
 				    <!-- <defaultOriginUrl></defaultOriginUrl> -->
-				    <enableFeatureVersions>true</enableFeatureVersions>
-				    <enableSshAgent>true</enableSshAgent>
+				    <!-- <enableFeatureVersions>true</enableFeatureVersions> -->
 				    <!-- <featureName></featureName> -->
 				    <!-- <pushFeatures>false</pushFeatures>
 				    <pushHotfixes>false</pushHotfixes>
