@@ -1,3 +1,1 @@
-1
-2
-3
+gitflow-maven-plugin-test
