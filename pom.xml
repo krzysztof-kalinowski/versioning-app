@@ -58,7 +58,6 @@
 	            <artifactId>jgitflow-maven-plugin</artifactId>
 	            <version>1.0-m5.1</version>
 	            <configuration>
-	                <!-- see goals wiki page for configuration options -->
 	                <flowInitContext>
 				         <masterBranchName>master</masterBranchName>
 				         <developBranchName>develop</developBranchName>
@@ -67,7 +66,7 @@
 				         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
 				         <versionTagPrefix>kk-</versionTagPrefix>
 				    </flowInitContext>
-				    <username>${git.user}</username>
+				    <username>krzysztof-kalinowski</username>
         			<password>${git.password}</password>
 				    <enableSshAgent>true</enableSshAgent>
 				    <autoVersionSubmodules>true</autoVersionSubmodules>
@@ -75,46 +74,7 @@
 				    <pushReleases>true</pushReleases>
 				    <pushHotfixes>true</pushHotfixes>
 				    <noDeploy>true</noDeploy>
-				    <!-- <allowSnapshots>false</allowSnapshots>-->
-				    <!-- <allowSnapshots>true</allowSnapshots> -->
-				    <!-- <allowUntracked>false</allowUntracked> -->
-				    <!-- <defaultOriginUrl></defaultOriginUrl> -->
-				    <!-- <enableFeatureVersions>true</enableFeatureVersions> -->
-				    <!-- <featureName></featureName> -->
-				    <!-- <pushFeatures>false</pushFeatures>
-				    <pushHotfixes>false</pushHotfixes>
-				    <pushReleases>false</pushReleases>
-				    <scmCommentPrefix>default</scmCommentPrefix> -->
-				    <!-- <startCommit></startCommit> -->
 	            </configuration>
-	           <!--  <executions>
-	            	<execution>
-	            		<id>feature-start</id>
-	            		<goals>
-	            			<goal>feature-start</goal>
-	            		</goals>
-	            		<configuration>
-	            			<allowSnapshots>true</allowSnapshots>
-						    <allowUntracked>false</allowUntracked>
-						    <enableSshAgent>false</enableSshAgent>
-						    <pushFeatures>true</pushFeatures>
-						    <scmCommentPrefix>fs</scmCommentPrefix>
-	            		</configuration>
-	            	</execution>
-	            	<execution>
-	            		<id>feature-finish</id>
-	            		<goals>
-	            			<goal>feature-finish</goal>
-	            		</goals>
-	            		<configuration>
-	            			<allowSnapshots>true</allowSnapshots>
-						    <allowUntracked>false</allowUntracked>
-						    <enableSshAgent>false</enableSshAgent>
-						    <pushFeatures>true</pushFeatures>
-						    <scmCommentPrefix>ff</scmCommentPrefix>
-	            		</configuration>
-	            	</execution>
-	            </executions> -->
 	        </plugin>
             <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
