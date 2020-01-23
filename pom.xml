@@ -5,7 +5,7 @@
 
   <groupId>kkalinowski.versioning.demo</groupId>
   <artifactId>versioning-app</artifactId>
-  <version>0.2.2</version>
+  <version>0.2.3-SNAPSHOT</version>
 
   <name>versioning-app</name>
 
