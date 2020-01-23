@@ -70,8 +70,8 @@
 				    <!-- <allowSnapshots>false</allowSnapshots>
 				    <allowUntracked>false</allowUntracked> -->
 				    <!-- <defaultOriginUrl></defaultOriginUrl> -->
-				    <!-- <enableFeatureVersions>false</enableFeatureVersions>
-				    <enableSshAgent>false</enableSshAgent> -->
+				    <enableFeatureVersions>true</enableFeatureVersions>
+				    <!-- <enableSshAgent>false</enableSshAgent> -->
 				    <!-- <featureName></featureName> -->
 				    <!-- <pushFeatures>false</pushFeatures>
 				    <pushHotfixes>false</pushHotfixes>
@@ -88,7 +88,6 @@
 	            		<configuration>
 	            			<allowSnapshots>true</allowSnapshots>
 						    <allowUntracked>false</allowUntracked>
-						    <enableFeatureVersions>true</enableFeatureVersions>
 						    <enableSshAgent>false</enableSshAgent>
 						    <pushFeatures>true</pushFeatures>
 						    <scmCommentPrefix>fs</scmCommentPrefix>
@@ -102,7 +101,6 @@
 	            		<configuration>
 	            			<allowSnapshots>true</allowSnapshots>
 						    <allowUntracked>false</allowUntracked>
-						    <!-- <enableFeatureVersions>true</enableFeatureVersions> -->
 						    <enableSshAgent>false</enableSshAgent>
 						    <pushFeatures>true</pushFeatures>
 						    <scmCommentPrefix>ff</scmCommentPrefix>
