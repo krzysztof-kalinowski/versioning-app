@@ -40,7 +40,9 @@
 		      <verbose>false</verbose>
 		      <keepBranch>true</keepBranch>
 		      <skipTestProject>true</skipTestProject>
-		
+		      <pushRemote>true</pushRemote> <!-- default is false -->
+			  <skipFeatureVersion>true</skipFeatureVersion> <!-- doesnt add feature name to version -->
+			
 		      <gitFlowConfig>
 		         <productionBranch>master</productionBranch>
 		         <developmentBranch>develop</developmentBranch>
