@@ -67,7 +67,7 @@
 				         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
 				         <versionTagPrefix>kk-</versionTagPrefix>
 				    </flowInitContext>
-				    <enableSshAgent>true</enableSshAgent>
+				    <enableSshAgent>false</enableSshAgent>
 				    <autoVersionSubmodules>true</autoVersionSubmodules>
 				    <pushFeatures>true</pushFeatures>
 				    <pushReleases>true</pushReleases>
