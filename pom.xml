@@ -19,6 +19,7 @@
 	  <archetype.encoding>${encoding}</archetype.encoding>
   </properties>
   
+  <!-- scm był potrzebny do maven release plugina -->
   <!-- <scm>
       <connection>scm:git:git@github.com:krzysztof-kalinowski/versioning-app.git</connection>
       <developerConnection>scm:git:git@github.com:krzysztof-kalinowski/versioning-app.git</developerConnection>
