@@ -67,7 +67,9 @@
 				         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
 				         <versionTagPrefix>kk-</versionTagPrefix>
 				    </flowInitContext>
-				    <enableSshAgent>false</enableSshAgent>
+				    <username>${git.user}</username>
+        			<password>${git.password}</password>
+				    <enableSshAgent>true</enableSshAgent>
 				    <autoVersionSubmodules>true</autoVersionSubmodules>
 				    <pushFeatures>true</pushFeatures>
 				    <pushReleases>true</pushReleases>
