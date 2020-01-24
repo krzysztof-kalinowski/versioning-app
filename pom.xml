@@ -51,10 +51,10 @@
 		   <executions>
 		   		<execution>
 		   			<id>feature-finish</id>
-		   			<phase>verify</phase>
 		   			<goals>
 		   				<goal>feature-finish</goal>
 		   			</goals>
+		   			<!-- <phase>initialize</phase> -->
 		   			<configuration>
 		   				<keepBranch>true</keepBranch>
 		   				<commitMessages>
