@@ -8,6 +8,12 @@
   <version>0.2.7-SNAPSHOT</version>
 
   <name>versioning-app</name>
+  <packaging>pom</packaging>
+  
+  <modules>
+  	<module>versioning-module0</module>
+  	<module>versioning-module1</module>
+  </modules>
 
   <properties>
 	  <maven.compiler.target>1.8</maven.compiler.target>
@@ -69,4 +75,5 @@
 		</plugin>
         </plugins>
     </build>
+  
 </project>

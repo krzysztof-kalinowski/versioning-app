@@ -1,0 +1,12 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>kkalinowski.versioning.demo</groupId>
+    <artifactId>versioning-app</artifactId>
+    <version>0.2.7-SNAPSHOT</version>
+  </parent>
+  <groupId>kkalinowski.versioning.demo.module0</groupId>
+  <artifactId>versioning-module0</artifactId>
+  <name>module0</name>
+  <description>				</description>
+</project>
