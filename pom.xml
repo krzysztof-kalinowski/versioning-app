@@ -47,6 +47,20 @@
 		         <!-- since 1.2.1, see Customizing commit messages -->
 		      </commitMessages>
 		   </configuration>
+		   <executions>
+		   		<execution>
+		   			<id>feature-finish</id>
+		   			<phase>verify</phase>
+		   			<goals>
+		   				<goal>feature-finish</goal>
+		   			</goals>
+		   			<configuration>
+		   				<keepBranch>true</keepBranch>
+		   			</configuration>
+		   		</execution>
+		   </executions>
+		   
+		   
 		</plugin>
         </plugins>
     </build>
