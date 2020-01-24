@@ -56,6 +56,10 @@
 		   			</goals>
 		   			<configuration>
 		   				<keepBranch>true</keepBranch>
+		   				<commitMessages>
+		         		<!-- since 1.2.1, see Customizing commit messages -->
+		         		<featureFinishDevMergeMessage>featureFinishDevMergeMessage</featureFinishDevMergeMessage>
+		      			</commitMessages>
 		   			</configuration>
 		   		</execution>
 		   </executions>
