@@ -45,6 +45,7 @@
 		      </gitFlowConfig>
 		      <commitMessages>
 		         <!-- since 1.2.1, see Customizing commit messages -->
+		         <featureStartMessage>wiadomosc przy starcie ficzera</featureStartMessage>
 		      </commitMessages>
 		   </configuration>
 		   <executions>
