@@ -8,4 +8,5 @@
   <groupId>kkalinowski.versioning.demo.module1</groupId>
   <artifactId>versioning-module1</artifactId>
   <name>module1</name>
+  <packaging>jar</packaging>
 </project>
