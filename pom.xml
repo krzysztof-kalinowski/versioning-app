@@ -5,7 +5,7 @@
 
   <groupId>kkalinowski.versioning.demo</groupId>
   <artifactId>versioning-app</artifactId>
-  <version>0.2.5</version>
+  <version>0.2.6</version>
 
   <name>versioning-app</name>
 
@@ -29,7 +29,7 @@
 		   <configuration>
 		      <installProject>false</installProject>
 		      <verbose>false</verbose>
-		      <keepBranch>true</keepBranch>
+		      <keepBranch>false</keepBranch>
 		      <skipTestProject>true</skipTestProject>
 		      <pushRemote>true</pushRemote> <!-- default is false -->
 			  <skipFeatureVersion>true</skipFeatureVersion> <!-- doesnt add feature name to version -->
