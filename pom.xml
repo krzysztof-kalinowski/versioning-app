@@ -58,7 +58,7 @@
 		   				<keepBranch>true</keepBranch>
 		   				<commitMessages>
 		         		<!-- since 1.2.1, see Customizing commit messages -->
-		         		<featureFinishDevMergeMessage>featureFinishDevMergeMessage</featureFinishDevMergeMessage>
+		         		<featureFinishDevMergeMessage>updated feature Finish Dev Merge Message</featureFinishDevMergeMessage>
 		      			</commitMessages>
 		   			</configuration>
 		   		</execution>
