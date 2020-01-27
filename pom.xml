@@ -54,23 +54,6 @@
 		         <featureStartMessage>wiadomosc przy starcie ficzera</featureStartMessage>
 		      </commitMessages>
 		   </configuration>
-		   <executions>
-		   		<execution>
-		   			<id>feature-finish</id>
-		   			<goals>
-		   				<goal>feature-finish</goal>
-		   			</goals>
-		   			<!-- <phase>initialize</phase> -->
-		   			<configuration>
-		   				<keepBranch>true</keepBranch>
-		   				<commitMessages>
-		         		<!-- since 1.2.1, see Customizing commit messages -->
-		         		<featureFinishDevMergeMessage>updated feature Finish Dev Merge Message</featureFinishDevMergeMessage>
-		      			</commitMessages>
-		   			</configuration>
-		   		</execution>
-		   </executions>
-		   
 		   
 		</plugin>
         </plugins>
