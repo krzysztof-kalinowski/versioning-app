@@ -5,7 +5,7 @@
 
   <groupId>kkalinowski.versioning.demo</groupId>
   <artifactId>versioning-app</artifactId>
-  <version>0.2.9-SNAPSHOT</version>
+  <version>${revision}</version>
 
   <name>versioning-app</name>
   <packaging>pom</packaging>
@@ -23,7 +23,7 @@
 	  <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
 	  <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
 	  <archetype.encoding>${encoding}</archetype.encoding>
-	  <revision.version>0.2.8</revision.version>
+	  <revision>0.2.9-SNAPSHOT</revision>
   </properties>
 		
 
@@ -31,8 +31,8 @@
         <plugins>
         <plugin>
 		   <groupId>com.amashchenko.maven.plugin</groupId>
-		   <artifactId>gitflow-maven-plugin</artifactId>
-		   <version>1.14.0</version>
+		   <artifactId>gitflow-maven-plugin-fork</artifactId>
+		   <version>1.14.1-SNAPSHOT</version>
 		   
 		   <configuration>
 		      <installProject>false</installProject>
