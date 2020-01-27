@@ -23,7 +23,6 @@
 	  <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
 	  <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
 	  <archetype.encoding>${encoding}</archetype.encoding>
-	  <revision>0.2.9-SNAPSHOT</revision>
   </properties>
 		
 
