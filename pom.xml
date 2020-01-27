@@ -31,8 +31,8 @@
         <plugins>
         <plugin>
 		   <groupId>com.amashchenko.maven.plugin</groupId>
-		   <artifactId>gitflow-maven-plugin-fork</artifactId>
-		   <version>1.14.1-SNAPSHOT</version>
+		   <artifactId>gitflow-maven-plugin</artifactId>
+		   <version>1.14.1</version>
 		   
 		   <configuration>
 		      <installProject>false</installProject>
