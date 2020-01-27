@@ -5,7 +5,7 @@
 
   <groupId>kkalinowski.versioning.demo</groupId>
   <artifactId>versioning-app</artifactId>
-  <version>0.2.7</version>
+  <version>${revision.version}</version>
 
   <name>versioning-app</name>
   <packaging>pom</packaging>
@@ -23,7 +23,9 @@
 	  <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
 	  <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
 	  <archetype.encoding>${encoding}</archetype.encoding>
+	  <revision.version>0.2.8</revision.version>
   </properties>
+		
 
   <build>
         <plugins>
