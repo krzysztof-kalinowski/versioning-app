@@ -1,2 +1,0 @@
-gitflow-maven-plugin-test
-next release
