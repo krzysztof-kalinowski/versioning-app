@@ -44,7 +44,7 @@
 		      <gitFlowConfig>
 		         <productionBranch>master</productionBranch>
 		         <developmentBranch>develop</developmentBranch>
-		         <featureBranchPrefix>feature/</featureBranchPrefix>
+		         <featureBranchPrefix>feature-tsec2-</featureBranchPrefix>
 		         <releaseBranchPrefix>release/</releaseBranchPrefix>
 		         <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
 		         <versionTagPrefix></versionTagPrefix>
