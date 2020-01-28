@@ -5,7 +5,7 @@
 
   <groupId>kkalinowski.versioning.demo</groupId>
   <artifactId>versioning-app</artifactId>
-  <version>0.2.11-SNAPSHOT</version>
+  <version>0.2.11-branch-w-name-SNAPSHOT</version>
 
   <name>versioning-app</name>
   <packaging>pom</packaging>
@@ -39,7 +39,7 @@
 		      <keepBranch>false</keepBranch>
 		      <skipTestProject>true</skipTestProject>
 		      <pushRemote>true</pushRemote> <!-- default is false -->
-			  <skipFeatureVersion>false</skipFeatureVersion> <!-- doesnt add feature name to version -->
+			  <skipFeatureVersion>true</skipFeatureVersion> <!-- doesnt add feature name to version -->
 			
 		      <gitFlowConfig>
 		         <productionBranch>master</productionBranch>
