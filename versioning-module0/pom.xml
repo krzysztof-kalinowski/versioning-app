@@ -3,7 +3,7 @@
   <parent>
     <groupId>kkalinowski.versioning.demo</groupId>
     <artifactId>versioning-app</artifactId>
-    <version>0.2.11-SNAPSHOT</version>
+    <version>0.2.11-branch-w-name-SNAPSHOT</version>
   </parent>
   <groupId>kkalinowski.versioning.demo.module0</groupId>
   <artifactId>versioning-module0</artifactId>
