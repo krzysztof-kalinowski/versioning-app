@@ -34,26 +34,24 @@
 		   <version>1.14.0</version>
 		   
 		   <configuration>
-		      <installProject>false</installProject>
+		      <installProject>false</installProject> <!-- Whether to call Maven install goal during the mojo execution -->
 		      <verbose>false</verbose>
-		      <keepBranch>false</keepBranch>
-		      <skipTestProject>true</skipTestProject>
+		      <keepBranch>true</keepBranch>
+		      <skipTestProject>false</skipTestProject>
 		      <pushRemote>true</pushRemote> <!-- default is false -->
-			  <skipFeatureVersion>true</skipFeatureVersion> <!-- doesnt add feature name to version -->
+			  <skipFeatureVersion>true</skipFeatureVersion> <!-- the feature name will be appended to project version -->
 			
 		      <gitFlowConfig>
 		         <productionBranch>master</productionBranch>
 		         <developmentBranch>develop</developmentBranch>
 		         <featureBranchPrefix>feature-tsec2-</featureBranchPrefix>
-		         <releaseBranchPrefix>release/</releaseBranchPrefix>
-		         <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+		         <releaseBranchPrefix>release-</releaseBranchPrefix>
+		         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
 		         <versionTagPrefix></versionTagPrefix>
 		         <origin>origin</origin>
 		      </gitFlowConfig>
-		      <commitMessages>
-		         <!-- since 1.2.1, see Customizing commit messages -->
-		         <featureStartMessage>wiadomosc przy starcie ficzera</featureStartMessage>
-		      </commitMessages>
+		      <!-- <commitMessages>
+		      </commitMessages> -->
 		   </configuration>
 		   
 		</plugin>
