@@ -39,7 +39,7 @@
 		      <keepBranch>true</keepBranch>
 		      <skipTestProject>false</skipTestProject>
 		      <pushRemote>true</pushRemote> <!-- default is false -->
-			  <skipFeatureVersion>true</skipFeatureVersion> <!-- the feature name will be appended to project version -->
+			  <skipFeatureVersion>true</skipFeatureVersion> <!-- if false the feature name will be appended to project version -->
 			
 		      <gitFlowConfig>
 		         <productionBranch>master</productionBranch>
