@@ -5,10 +5,11 @@
     <artifactId>versioning-app</artifactId>
     <version>0.2.18-SNAPSHOT</version>
   </parent>
-  <groupId>kkalinowski.versioning.demo.module0</groupId>
-  <artifactId>versioning-module0</artifactId>
-  <version>0.2.18-SNAPSHOT</version>
-  <name>module0</name>
-  <packaging>jar</packaging>
-  <description>				</description>
+  <groupId>kkalinowski.versioning.demo.multi</groupId>
+  <artifactId>versioning-multi-parent</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>versioning-multi-sub0</module>
+  	<module>../versioning-multi-sub1</module> <!-- how to setup child module if it is not in subfolder -->
+  </modules>
 </project>
