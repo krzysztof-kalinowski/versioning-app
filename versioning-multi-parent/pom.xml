@@ -10,6 +10,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>versioning-multi-sub0</module>
-  	<module>versioning-multi-sub1</module>
+  	<!-- <module>versioning-multi-sub1</module>  --><!-- how to setup child module if it is not in subfolder -->
   </modules>
 </project>
