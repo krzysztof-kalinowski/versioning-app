@@ -5,8 +5,11 @@
     <artifactId>versioning-app</artifactId>
     <version>0.2.18-SNAPSHOT</version>
   </parent>
-  <groupId>kkalinowski.versioning.demo.module1</groupId>
-  <artifactId>versioning-module1</artifactId>
-  <name>module1</name>
-  <packaging>jar</packaging>
+  <groupId>kkalinowski.versioning.demo.multi</groupId>
+  <artifactId>versioning-multi-parent</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>versioning-multi-sub0</module>
+  	<module>versioning-multi-sub1</module>
+  </modules>
 </project>
