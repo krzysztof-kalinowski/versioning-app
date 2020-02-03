@@ -14,8 +14,6 @@
   	<module>versioning-module0</module>
   	<module>versioning-module1</module>
   	<module>versioning-multi-parent</module>
-  	<!-- <module>versioning-multi-parent/versioning-multi-sub0</module>
-  	<module>versioning-multi-sub1</module> -->
   </modules>
 
   <properties>
