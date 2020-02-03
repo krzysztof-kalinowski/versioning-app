@@ -41,8 +41,8 @@
 		      <pushRemote>true</pushRemote> <!-- default is false -->
 			  <skipFeatureVersion>true</skipFeatureVersion> <!-- if false the feature name will be appended to project version -->
 			  
-			  <skipMergeDevBranch>false</skipMergeDevBranch> <!-- merge hotfix to develop -->
-			  <skipMergeProdBranch>false</skipMergeProdBranch> <!-- merge hotfix to master -->
+			  <skipMergeDevBranch>false</skipMergeDevBranch> <!-- skip merging hotfix to develop -->
+			  <skipMergeProdBranch>false</skipMergeProdBranch> <!-- skip merging hotfix to master -->
 			
 		      <gitFlowConfig>
 		         <productionBranch>master</productionBranch>
