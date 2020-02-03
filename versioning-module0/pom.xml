@@ -7,6 +7,7 @@
   </parent>
   <groupId>kkalinowski.versioning.demo.module0</groupId>
   <artifactId>versioning-module0</artifactId>
+  <version>0.2.17-SNAPSHOT</version>
   <name>module0</name>
   <packaging>jar</packaging>
   <description>				</description>

@@ -36,7 +36,7 @@
 		   <configuration>
 		      <installProject>false</installProject> <!-- Whether to call Maven install goal during the mojo execution -->
 		      <verbose>false</verbose>
-		      <keepBranch>true</keepBranch>
+		      <keepBranch>false</keepBranch>
 		      <skipTestProject>false</skipTestProject>
 		      <pushRemote>true</pushRemote> <!-- default is false -->
 			  <skipFeatureVersion>true</skipFeatureVersion> <!-- if false the feature name will be appended to project version -->
