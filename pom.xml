@@ -44,7 +44,7 @@
 			  
 			  <skipMergeDevBranch>false</skipMergeDevBranch> <!-- skip merging hotfix to develop -->
 			  <skipMergeProdBranch>false</skipMergeProdBranch> <!-- skip merging hotfix to master -->
-			  <versionDigitToIncrement>0</versionDigitToIncrement>
+			  <versionDigitToIncrement>1</versionDigitToIncrement>
 		      <gitFlowConfig>
 		         <productionBranch>master</productionBranch>
 		         <developmentBranch>develop</developmentBranch>
