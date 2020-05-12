@@ -3,11 +3,11 @@
   <parent>
     <groupId>kkalinowski.versioning.demo</groupId>
     <artifactId>versioning-app</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2</version>
   </parent>
   <groupId>kkalinowski.versioning.demo.module0</groupId>
   <artifactId>versioning-module0</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.2</version>
   <name>module0</name>
   <packaging>jar</packaging>
   <description>				</description>
