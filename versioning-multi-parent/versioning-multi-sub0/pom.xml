@@ -3,7 +3,7 @@
   <parent>
     <groupId>kkalinowski.versioning.demo.multi</groupId>
     <artifactId>versioning-multi-parent</artifactId>
-    <version>0.3.2</version>
+    <version>0.3.2-SNAPSHOT</version>
   </parent>
   <groupId>kkalinowski.versioning.demo.multi.sub0</groupId>
   <artifactId>versioning-multi-sub0</artifactId>
