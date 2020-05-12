@@ -4,6 +4,9 @@
 /build/www/**
 /src/test/javascript/coverage/
 /src/test/javascript/PhantomJS*/
+versioning-module0/target/
+versioning-module1/target/
+
 
 ######################
 # Node
