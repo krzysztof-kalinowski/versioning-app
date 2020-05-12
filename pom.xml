@@ -5,7 +5,7 @@
 
   <groupId>kkalinowski.versioning.demo</groupId>
   <artifactId>versioning-app</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
 
   <name>versioning-app</name>
   <packaging>pom</packaging>
@@ -44,7 +44,6 @@
 			  
 			  <skipMergeDevBranch>false</skipMergeDevBranch> <!-- skip merging hotfix to develop -->
 			  <skipMergeProdBranch>false</skipMergeProdBranch> <!-- skip merging hotfix to master -->
-			  <versionProperty>1.0.3</versionProperty>
 		      <gitFlowConfig>
 		         <productionBranch>master</productionBranch>
 		         <developmentBranch>develop</developmentBranch>
